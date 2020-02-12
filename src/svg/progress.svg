@@ -34,18 +34,18 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="819"
-     inkscape:window-height="469"
+     inkscape:window-width="1366"
+     inkscape:window-height="712"
      id="namedview72"
      showgrid="true"
      inkscape:snap-bbox="true"
      inkscape:bbox-nodes="true"
-     inkscape:zoom="10.429825"
-     inkscape:cx="12.966393"
-     inkscape:cy="13.517948"
-     inkscape:window-x="239"
-     inkscape:window-y="247"
-     inkscape:window-maximized="0"
+     inkscape:zoom="40.660021"
+     inkscape:cx="22.718143"
+     inkscape:cy="7.7184787"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:window-maximized="1"
      inkscape:current-layer="svg70">
     <inkscape:grid
        type="xygrid"
@@ -207,12 +207,8 @@
   <path
      id="path850"
      d="M 23,17 A 6.5,6.5 0 0 0 16.5,23.5 6.5,6.5 0 0 0 23,30 6.5,6.5 0 0 0 29.5,23.5 6.5,6.5 0 0 0 23,17 Z m 0,3 A 3.5,3.5 0 0 1 26.5,23.5 3.5,3.5 0 0 1 23,27 3.5,3.5 0 0 1 19.5,23.5 3.5,3.5 0 0 1 23,20 Z"
-     style="fill:#000000;paint-order:stroke fill markers;filter:url(#filter892);opacity:0.35"
+     style="fill:#000000;paint-order:stroke fill markers;filter:url(#filter892);opacity:0.15"
      inkscape:connector-curvature="0" />
-  <path
-     style="fill:#ffffff;paint-order:stroke fill markers"
-     d="M 23 16.5 A 6.5 6.5 0 0 0 16.5 23 A 6.5 6.5 0 0 0 23 29.5 A 6.5 6.5 0 0 0 29.5 23 A 6.5 6.5 0 0 0 23 16.5 z M 23 19.5 A 3.5 3.5 0 0 1 26.5 23 A 3.5 3.5 0 0 1 23 26.5 A 3.5 3.5 0 0 1 19.5 23 A 3.5 3.5 0 0 1 23 19.5 z "
-     id="circle52" />
   <g
      id="g4682"
      transform="translate(-31,1.9999995)">

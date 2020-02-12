@@ -34,16 +34,16 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="819"
-     inkscape:window-height="480"
+     inkscape:window-width="1366"
+     inkscape:window-height="712"
      id="namedview72"
      showgrid="false"
-     inkscape:zoom="14.75"
-     inkscape:cx="7.818304"
-     inkscape:cy="7.350258"
-     inkscape:window-x="193"
-     inkscape:window-y="216"
-     inkscape:window-maximized="0"
+     inkscape:zoom="42.407131"
+     inkscape:cx="26.274599"
+     inkscape:cy="3.7518002"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:window-maximized="1"
      inkscape:current-layer="svg70" />
   <defs
      id="defs38">
@@ -201,13 +201,8 @@
   <path
      id="path850"
      d="M 23,17 A 6.5,6.5 0 0 0 16.5,23.5 6.5,6.5 0 0 0 23,30 6.5,6.5 0 0 0 29.5,23.5 6.5,6.5 0 0 0 23,17 Z m 0,3 A 3.5,3.5 0 0 1 26.5,23.5 3.5,3.5 0 0 1 23,27 3.5,3.5 0 0 1 19.5,23.5 3.5,3.5 0 0 1 23,20 Z"
-     style="opacity:0.35;fill:#000000;paint-order:stroke fill markers;filter:url(#filter892)"
+     style="opacity:0.15;fill:#000000;paint-order:stroke fill markers;filter:url(#filter892)"
      inkscape:connector-curvature="0" />
-  <path
-     inkscape:connector-curvature="0"
-     style="fill:#ffffff;paint-order:stroke fill markers"
-     d="M 23,16.5 A 6.5,6.5 0 0 0 16.5,23 6.5,6.5 0 0 0 23,29.5 6.5,6.5 0 0 0 29.5,23 6.5,6.5 0 0 0 23,16.5 Z m 0,3 A 3.5,3.5 0 0 1 26.5,23 3.5,3.5 0 0 1 23,26.5 3.5,3.5 0 0 1 19.5,23 3.5,3.5 0 0 1 23,19.5 Z"
-     id="circle52" />
   <g
      id="g4682"
      transform="translate(-31,1.9999995)">

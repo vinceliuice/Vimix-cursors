@@ -11,10 +11,15 @@ else
 fi
 
 if [ -d "$DEST_DIR/Vimix-cursors" ]; then
-  rm -r "$DEST_DIR/Vimix-cursors"
+  rm -rf "$DEST_DIR/Vimix-cursors"
 fi
 
-cp -pr dist/ $DEST_DIR/Vimix-cursors
+if [ -d "$DEST_DIR/Vimix-white-cursors" ]; then
+  rm -rf "$DEST_DIR/Vimix-white-cursors"
+fi
+
+cp -r dist/ $DEST_DIR/Vimix-cursors
+cp -r dist-white/ $DEST_DIR/Vimix-white-cursors
 
 echo "Finished..."
 

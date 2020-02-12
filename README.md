@@ -32,3 +32,4 @@ The freshly compiled cursor theme will be located in `dist/`
 
 ## Preview
 ![Vimix](preview.png)
+![Vimix-white](preview-white.png)

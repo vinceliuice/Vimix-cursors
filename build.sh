@@ -12,7 +12,10 @@ function create {
 	cd $SRC
 
 	# generate cursors
-	BUILD="$SRC"/../dist
+	if [[ "$THEME" =~ White$ ]]; then
+		BUILD="$SRC"/../dist-white
+	else BUILD="$SRC"/../dist
+	fi
 	OUTPUT="$BUILD"/cursors
 	ALIASES="$SRC"/cursorList
 
@@ -33,7 +36,7 @@ function create {
 	done
 	echo -e "Generating cursor theme... DONE"
 
-	cd "$OUTPUT"	
+	cd "$OUTPUT"
 
 	#generate aliases
 	echo -ne "Generating shortcuts...\\r"
@@ -61,7 +64,10 @@ function create {
 
 # generate pixmaps from svg source
 SRC=$PWD/src
-THEME="McMojave Cursors"
+THEME="Vimix Cursors"
 
 create svg
 
+THEME="Vimix Cursors - White"
+
+create svg-white
