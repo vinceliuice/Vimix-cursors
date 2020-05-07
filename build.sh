@@ -4,10 +4,10 @@ function create {
 	cd "$SRC"
 	mkdir -p x1 x1_25 x1_5 x2
 	cd "$SRC"/$1
-	find . -name "*.svg" -type f -exec sh -c 'inkscape -z -e "../x1/${0%.svg}.png" -w 32 -h 32 $0' {} \;
-	find . -name "*.svg" -type f -exec sh -c 'inkscape -z -e "../x1_25/${0%.svg}.png" -w 40 -w 40 $0' {} \;
-	find . -name "*.svg" -type f -exec sh -c 'inkscape -z -e "../x1_5/${0%.svg}.png" -w 48 -w 48 $0' {} \;
-	find . -name "*.svg" -type f -exec sh -c 'inkscape -z -e "../x2/${0%.svg}.png" -w 64 -w 64 $0' {} \;
+	find . -name "*.svg" -type f -exec sh -c 'echo -e "generating ${0%.svg}.png 32" && cairosvg -f png -o "../x1/${0%.svg}.png" --output-width 32 --output-height 32 $0' {} \;
+	find . -name "*.svg" -type f -exec sh -c 'echo -e "generating ${0%.svg}.png 40" && cairosvg -f png -o "../x1_25/${0%.svg}.png" --output-width 40 --output-height 40 $0' {} \;
+	find . -name "*.svg" -type f -exec sh -c 'echo -e "generating ${0%.svg}.png 48" && cairosvg -f png -o "../x1_5/${0%.svg}.png" --output-width 48 --output-height 48 $0' {} \;
+	find . -name "*.svg" -type f -exec sh -c 'echo -e "generating ${0%.svg}.png 64" && cairosvg -f png -o "../x2/${0%.svg}.png" --output-width 64 --output-height 64 $0' {} \;
 
 	cd $SRC
 
@@ -16,6 +16,7 @@ function create {
 		BUILD="$SRC"/../dist-white
 	else BUILD="$SRC"/../dist
 	fi
+
 	OUTPUT="$BUILD"/cursors
 	ALIASES="$SRC"/cursorList
 
@@ -31,7 +32,7 @@ function create {
 		BASENAME="$CUR"
 		BASENAME="${BASENAME##*/}"
 		BASENAME="${BASENAME%.*}"
-		
+
 		xcursorgen "$CUR" "$OUTPUT/$BASENAME"
 	done
 	echo -e "Generating cursor theme... DONE"

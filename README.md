@@ -39,6 +39,25 @@ run:
 This will generate the pixmaps and appropriate aliases.
 The freshly compiled cursor theme will be located in `dist/`
 
+### Building depends requirment
+- xorg-xcursorgen.
+- python-cairosvg.
+
+Fedora/RedHat distros:
+
+    dnf install xorg-xcursorgen python-cairosvg
+
+Ubuntu/Mint/Debian distros:
+
+    sudo apt-get install xorg-xcursorgen python-cairosvg
+
+ArchLinux/Manjaro:
+
+    pacman -S xorg-xcursorgen python-cairosvg
+
+Other:
+Search for the engines in your distributions repository or install the depends from source.
+
 ## Preview
 ![Vimix](preview.png)
 ![Vimix-white](preview-white.png)
