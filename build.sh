@@ -1,5 +1,40 @@
 #!/bin/bash
 
+# check command avalibility
+has_command() {
+  "$1" -v $1 > /dev/null 2>&1
+}
+
+if [ ! "$(which xcursorgen 2> /dev/null)" ]; then
+  echo xorg-xcursorgen needs to be installed to generate the cursors.
+  if has_command zypper; then
+    sudo zypper in xorg-xcursorgen
+  elif has_command apt; then
+    sudo apt install xorg-xcursorgen
+  elif has_command dnf; then
+    sudo dnf install -y xorg-xcursorgen
+  elif has_command dnf; then
+    sudo dnf install xorg-xcursorgen
+  elif has_command pacman; then
+    sudo pacman -S --noconfirm xorg-xcursorgen
+  fi
+fi
+
+if [ ! "$(which cairosvg 2> /dev/null)" ]; then
+  echo xorg-xcursorgen needs to be installed to generate png files.
+  if has_command zypper; then
+    sudo zypper in python-cairosvg
+  elif has_command apt; then
+    sudo apt install python-cairosvg
+  elif has_command dnf; then
+    sudo dnf install -y python-cairosvg
+  elif has_command dnf; then
+    sudo dnf install python-cairosvg
+  elif has_command pacman; then
+    sudo pacman -S --noconfirm python-cairosvg
+  fi
+fi
+
 function create {
 	cd "$SRC"
 	mkdir -p x1 x1_25 x1_5 x2
