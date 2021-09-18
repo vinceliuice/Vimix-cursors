@@ -40,7 +40,7 @@ run:
 This will generate the pixmaps and appropriate aliases.
 The freshly compiled cursor theme will be located in `dist/`
 
-### Building depends requirment
+### Building depends requirement
 - xorg-xcursorgen.
 - python-cairosvg.
 
