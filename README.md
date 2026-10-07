@@ -2,6 +2,10 @@
 This is an x-cursor theme inspired by Materia design and
 based on [capitaine-cursors](https://github.com/keeferrourke/capitaine-cursors).
 
+Besides the x-cursors (`cursors/`) the theme ships SVG cursors
+(`cursors_scalable/`). GNOME Shell 51+ only uses those for Wayland
+applications, KDE Plasma 6.2+ picks them up as well.
+
 ## Installation
 To install the cursor theme simply copy the compiled theme to your icons
 directory. For local user installation:
@@ -39,6 +43,13 @@ run:
 
 This will generate the pixmaps and appropriate aliases.
 The freshly compiled cursor theme will be located in `dist/`
+
+`build.sh` also generates the SVG cursors. To only regenerate those
+(no dependencies needed) run:
+
+```
+./build-scalable.sh
+```
 
 ### Building depends requirement
 - xorg-xcursorgen.

@@ -16,6 +16,7 @@ b66166c04f8c3109214a4fbd64a50fc8 copy
 d9ce0ab605698f320427677b458ad60b help
 e29285e634086352946a0e7090d73106 pointer
 fcf21c00b30f7e3f83fe0dfd12e71cff dnd-move
+all-resize fleur
 arrow default
 circle not-allowed
 closedhand dnd-move
@@ -24,9 +25,11 @@ color-picker crosshair
 copy dnd-move
 cross crosshair
 crossed_circle not-allowed
+dnd-ask context-menu
 dnd-copy copy
 dnd-none dnd-move
 e-resize size_hor
+ew-resize size_hor
 forbidden no-drop
 grab openhand
 grabbing dnd-move
@@ -46,6 +49,7 @@ move dnd-move
 n-resize size_ver
 ne-resize top_right_corner
 nesw-resize size_bdiag
+ns-resize size_ver
 nw-resize top_left_corner
 nwse-resize size_fdiag
 plus cell

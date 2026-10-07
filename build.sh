@@ -107,3 +107,6 @@ create svg
 THEME="Vimix Cursors - White"
 
 create svg-white
+
+# generate svg cursors from the same sources
+"$SRC"/../build-scalable.sh
